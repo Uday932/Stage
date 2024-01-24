@@ -42,7 +42,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/test-project-2",
-            "index": "src/index.html",
+            "index": "src/app/app.component.html",
             "main": "src/main.ts",
             "polyfills": [
               "zone.js"
@@ -105,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": false
   }
 }

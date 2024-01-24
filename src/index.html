@@ -1,13 +1,64 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>TestProject2</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
+
+  <div class="container-fluid body-height font-color">
+    <div class="container pt-5">
+      <div class="container-fluid body-height font-color">
+          <div class="container pt-5">
+      
+              <div class="row">
+      
+                  <div class="col-lg-6 col-md-6 offset-md-3 mb-5">
+      
+                      <div class="text-center">
+                          <svg viewBox="0 0 38 42" style="fill: #84C000; height:108px;">
+                              <use href="#logo" />
+                          </svg>
+                      </div>
+      
+                      <div class="col-lg-12 login-responsive">
+      
+                          <p class="text-center mb-5 login-title" i18n>event catalyst</p>
+      
+                          <div class="row justify-content-center" >
+                              
+                          </div>
+      
+                          <form>
+                              <div class="form-group">
+                                  <label for="username" i18n>Username</label>
+                                  <input type="email" class="form-control" id="username" aria-describedby="emailHelp"
+                                      placeholder="Username" formControlName="username" autocomplete="username">
+                              </div>
+                              <div class="form-group">
+                                  <label for="password" i18n>Password</label>
+                                  <input type="password" class="form-control" id="password" placeholder="Password"
+                                      formControlName="password" autocomplete="current-password">
+                              </div>
+                              <div class="form-group form-check">
+      
+                                  <label class="form-check-label" for="check" i18n>Keep me logged in</label>
+                              </div>
+                              <div class="row">
+                                  <div class="col-lg-12">
+                                      <a [routerLink]="['admin/username/reset']" class="forgot-username" i18n> Forgot username?</a>
+                                      <a [routerLink]="['admin/password/reset']" class="forgot-password float-right" i18n>Forgot
+                                          password?</a>
+                                  </div>
+                              </div>
+                              <div class="text-center mt-4">
+                                  <button type="submit" class="btn btn-lg btn-success" 
+                                      i18n>Login
+                                  </button>
+                              </div>
+                          </form>
+      
+                          
+                      </div>
+      
+                  </div>
+              </div>
+      
+          </div>
+      </div>
+    </div>
+  </div>
   <app-root></app-root>
-</body>
-</html>
