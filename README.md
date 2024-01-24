@@ -1,4 +1,5 @@
-# TestProject2
+# Stage
+Tout ce qui sera réalisé durant ma période de stage du 22 janvier au 16 mars sera présent ici.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
 
